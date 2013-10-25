@@ -15,6 +15,17 @@ public class BuildIndexApp extends CommandLineApplication {
 	
 	@Override
 	protected void _run(String[] arguments) throws Exception {
+		long startTime = System.nanoTime();
+
+		mysqlScan();
+		long endTime = System.nanoTime();
+
+		long duration = endTime - startTime;
+		
+		System.out.println("Took "+duration/1e9+ " seconds");
+	}
+
+	private void mysqlScan() {
 		JdbcTemplate t=new JdbcTemplate(dataSource);
 		SqlRowSet row=t.queryForRowSet( 
 				"SELECT topic.id,title,slug,quality_score_2,name"
