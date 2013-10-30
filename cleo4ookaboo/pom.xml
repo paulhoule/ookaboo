@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ontology2</groupId>
   <artifactId>cleo4ookaboo</artifactId>
   <version>0.9-SNAPSHOT</version>
   <name>Cleo For Ookaboo</name>
-  <description>Tools for Loading Ookaboo data,  as it exists,  into a Cleo index</description>
+  <description>Tools for Loading Ookaboo data, as it exists, into a Cleo index</description>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -42,6 +43,21 @@
           <source>1.6</source>
           <target>1.6</target>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.jolira</groupId>
+        <artifactId>onejar-maven-plugin</artifactId>
+        <version>1.4.4</version>
+        <configuration>
+          <mainClass>com.ontology2.cleo4ookaboo.Main</mainClass>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>one-jar</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
