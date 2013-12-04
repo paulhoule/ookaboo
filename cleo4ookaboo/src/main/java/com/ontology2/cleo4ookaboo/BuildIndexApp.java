@@ -56,12 +56,15 @@ public class BuildIndexApp extends CommandLineApplication {
     public static GenericTypeahead<TypeaheadElement> createTypeahead(
             Resource configFile) throws Exception {
 
-        Properties p = new Properties(System.getProperties());
+        Properties p = new Properties();
+        p.putAll(System.getProperties());
         InputStream inStream = configFile.getInputStream();
         InputStreamReader reader = new InputStreamReader(inStream, "UTF-8");
         p.load(reader);
+        System.out.println(p.getProperty("user.home"));
         GenericTypeaheadConfig<TypeaheadElement> config = TypeaheadConfigFactory
                 .createGenericTypeaheadConfig(p);
+        System.out.println(config.getConnectionsStoreDir());
         config.setSelectorFactory(new ScoredElementSelectorFactory<TypeaheadElement>());
 
         // Create typeahead initializer
