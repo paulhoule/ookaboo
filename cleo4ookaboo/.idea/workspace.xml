@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af730e5b-e989-4a8f-9054-97c0f9d3dff9" name="Default" comment="add idea config,  add DumpTopicsApp,  enable one-jar plugin and local properties file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/cleo-ookaboo-webapp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleo4ookaboo.iml" afterPath="$PROJECT_DIR$/cleo4ookaboo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties" afterPath="$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo-ookaboo-webapp/pom.xml" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cleo4ookaboo.iws" />
@@ -61,7 +70,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <exception_breakpoints>
+    <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint class_name="java.lang.IllegalArgumentException" package_name="java.lang">
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -92,7 +101,7 @@
       <file leaf-file-name="BuildIndexApp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="447" max-vertical-offset="1836">
+            <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2278">
               <folding />
             </state>
           </provider>
@@ -101,16 +110,25 @@
       <file leaf-file-name="TypeaheadConfigFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/TypeaheadConfigFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="13" selection-start="6155" selection-end="6155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3587">
+            <state line="126" column="13" selection-start="6155" selection-end="6155" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4029">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="typeahead_config.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="typeahead_config.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.17085427" vertical-offset="0" max-vertical-offset="597">
+            <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="59" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.81942075" vertical-offset="250" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -136,17 +154,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="11" />
+    <option name="y" value="48" />
+    <option name="width" value="1152" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -174,7 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,20 +208,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cleo4ookaboo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleo4ookaboo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cleo4ookaboo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,6 +265,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,6 +283,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cleo-ookaboo-webapp/pom.xml" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -337,19 +342,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -375,6 +367,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -470,33 +475,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="11" y="48" width="1152" height="720" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41728136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16979167" sideWeight="0.67070216" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3435195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16901408" sideWeight="0.67070216" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3435195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41728136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -526,6 +531,83 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/TypeaheadConfigFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="13" selection-start="6155" selection-end="6155" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="46" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/TypeaheadConfigFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="13" selection-start="6155" selection-end="6155" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="21" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/TypeaheadConfigFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="13" selection-start="6155" selection-end="6155" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="85" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
@@ -549,9 +631,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="765" column="48" selection-start="28440" selection-end="28440" vertical-scroll-proportion="0.0" vertical-offset="13005" max-vertical-offset="21080">
-          <folding />
-        </state>
+        <state line="765" column="48" selection-start="28440" selection-end="28440" vertical-scroll-proportion="0.0" vertical-offset="13005" max-vertical-offset="21080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/Main.java">
@@ -577,13 +657,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/util/PropertiesResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="37" selection-start="1277" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1122">
-          <folding>
-            <element signature="e#0#1745#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1084#1100#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="42" column="37" selection-start="1277" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1122" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
@@ -595,13 +669,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/util/PropertiesResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="37" selection-start="1277" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="e#0#1745#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1084#1100#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="42" column="37" selection-start="1277" selection-end="1280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java">
@@ -658,53 +726,19 @@
         <state line="13" column="34" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="21" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="370" column="0" selection-start="13755" selection-end="13755" vertical-scroll-proportion="0.0" vertical-offset="5257" max-vertical-offset="12359">
-          <folding>
-            <element signature="e#0#30119#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#12958#13683#0" expanded="false" />
-            <element signature="e#13664#13665#0" expanded="false" />
-            <element signature="e#21108#21261#0" expanded="false" />
-            <element signature="e#21246#21247#0" expanded="false" />
-            <element signature="e#22178#22473#0" expanded="false" />
-            <element signature="e#22446#22447#0" expanded="false" />
-            <element signature="e#26441#26661#0" expanded="false" />
-            <element signature="e#26642#26643#0" expanded="false" />
-            <element signature="e#27660#27851#0" expanded="false" />
-            <element signature="e#27836#27837#0" expanded="false" />
-            <element signature="e#28663#28846#0" expanded="false" />
-            <element signature="e#28831#28832#0" expanded="false" />
-            <element signature="e#28951#29120#0" expanded="false" />
-            <element signature="e#29105#29106#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="370" column="0" selection-start="13755" selection-end="13755" vertical-scroll-proportion="0.0" vertical-offset="5257" max-vertical-offset="12359" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="0" selection-start="16641" selection-end="16641" vertical-scroll-proportion="0.0" vertical-offset="6243" max-vertical-offset="36686">
-          <folding />
-        </state>
+        <state line="434" column="0" selection-start="16641" selection-end="16641" vertical-scroll-proportion="0.0" vertical-offset="6243" max-vertical-offset="36686" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/util/PropertiesResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="816">
-          <folding>
-            <element signature="e#0#1745#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1084#1100#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="55" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java">
@@ -716,16 +750,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/tool/GenericTypeaheadInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="22" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1547">
-          <folding />
-        </state>
+        <state line="107" column="22" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1547" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_10/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="791" column="0" selection-start="29629" selection-end="29629" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21080">
-          <folding />
-        </state>
+        <state line="791" column="0" selection-start="29629" selection-end="29629" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
@@ -744,7 +774,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.17085427" vertical-offset="0" max-vertical-offset="597">
+        <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="59" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.81942075" vertical-offset="250" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
