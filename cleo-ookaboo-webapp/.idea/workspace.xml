@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="" />
+    <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_aop_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_beans_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_context_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_context_support_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_core_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_expression_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_web_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_4_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleo-ookaboo-webapp.iml" afterPath="$PROJECT_DIR$/cleo-ookaboo-webapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" />
+    </list>
     <ignored path="cleo-ookaboo-webapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +81,16 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="77" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.10067114" vertical-offset="437" max-vertical-offset="1496">
+            <state line="73" column="20" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.96196866" vertical-offset="381" max-vertical-offset="1496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typeahead_config.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/typeahead_config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="73" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -80,6 +103,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -91,7 +117,7 @@
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -174,6 +200,32 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleo-ookaboo-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleo-ookaboo-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -191,6 +243,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\paul_000\Documents\GitHub\ookaboo\cleo-ookaboo-webapp\src\main" />
     </key>
@@ -357,7 +412,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -414,9 +469,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/typeahead_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="77" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.10067114" vertical-offset="437" max-vertical-offset="1496">
+        <state line="73" column="20" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.96196866" vertical-offset="381" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
