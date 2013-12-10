@@ -4,6 +4,7 @@
     <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" />

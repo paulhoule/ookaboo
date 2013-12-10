@@ -89,18 +89,39 @@ public class BuildIndexApp extends CommandLineApplication {
         float score;
     }
 
+    final static int BITE_SIZE=10000;
+
     private void mysqlScan() throws Exception {
         JdbcTemplate t = new JdbcTemplate(dataSource);
+        int count=t.queryForInt("SELECT MAX(id) FROM topic");
+        for(int i=0;i<count;i+=BITE_SIZE) {
+            mysqlScan(i,i+BITE_SIZE);
+        }
+    }
+
+    private void mysqlScan(int from,int to) throws Exception {
+        JdbcTemplate t = new JdbcTemplate(dataSource);
+        int count=t.queryForInt("SELECT COUNT(*)"
+                + " FROM topic,topic_alt_name"
+                + " WHERE workflow_status>600"
+                + " AND topic.id=topic_alt_name.id"
+                + " AND topic.id>=?"
+                + " AND topic.id<?",from,to);
+
+        if (count==0)
+            return;
+
         SqlRowSet row = t
                 .queryForRowSet("SELECT topic.id,title,slug,quality_score_2,name"
                         + " FROM topic,topic_alt_name"
                         + " WHERE workflow_status>600"
-                        + " AND topic.id=topic_alt_name.id");
+                        + " AND topic.id=topic_alt_name.id"
+                        + " AND topic.id>=?"
+                        + " AND topic.id<?",from,to);
 
         int cnt = 0;
 
         RowGroup g = null;
-
         row.next();
         while (!row.isAfterLast()) {
             int id = row.getInt(1);
