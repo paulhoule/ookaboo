@@ -30,6 +30,9 @@
     <orderEntry type="library" name="Maven: com.ontology2:centipede:98.8" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:15.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.3.0" level="project" />
   </component>
 </module>
 

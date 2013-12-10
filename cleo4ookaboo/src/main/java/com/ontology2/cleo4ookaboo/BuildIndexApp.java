@@ -33,13 +33,20 @@ public class BuildIndexApp extends CommandLineApplication {
 
     @Autowired
     DriverManagerDataSource dataSource;
-    GenericTypeahead gta;
+    GenericTypeahead<TypeaheadElement> gta;
 
     @Override
     protected void _run(String[] arguments) throws Exception {
         long startTime = System.nanoTime();
         gta=createTypeahead(new ClassPathResource("/com/ontology2/cleo4ookaboo/typeahead_config.properties"));
         mysqlScan();
+        System.out.println("Max score A: " + gta.getMaxElementScore());
+        System.out.println("Max key length A: " + gta.getMaxKeyLength());
+        gta.flush();
+        List <TypeaheadElement> y=gta.search(1,new String[] {"Los"});
+        System.out.println("Number of search results: "+y.size());
+        System.out.println("Max score B:" + gta.getMaxElementScore());
+        System.out.println("Max key length B:"+gta.getMaxKeyLength());
         long endTime = System.nanoTime();
 
         long duration = endTime - startTime;
@@ -82,7 +89,7 @@ public class BuildIndexApp extends CommandLineApplication {
         float score;
     }
 
-    private void mysqlScan() {
+    private void mysqlScan() throws Exception {
         JdbcTemplate t = new JdbcTemplate(dataSource);
         SqlRowSet row = t
                 .queryForRowSet("SELECT topic.id,title,slug,quality_score_2,name"
@@ -108,21 +115,23 @@ public class BuildIndexApp extends CommandLineApplication {
                 g.slug = row.getString(3);
                 g.score = row.getFloat(4);
             }
-            g.terms.add(row.getString(5));
+            g.terms.add(row.getString(5).toLowerCase());
             row.next();
         }
 
         flush(g);
-        System.out.println(cnt);
     }
 
-    private void flush(RowGroup g) {
+    private void flush(RowGroup g) throws Exception {
         TypeaheadElement e=new SimpleTypeaheadElement(g.id);
         e.setLine1(g.title);
+        e.setLine2("");
+        e.setLine3("");
         e.setMedia(g.id+"/"+g.slug);
         e.setScore(g.score);
         e.setTerms(g.terms.toArray(new String[] {}));
         e.setTimestamp(System.currentTimeMillis());
+        gta.index(e);
     }
 
 }
