@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="#5 first light..  it really works,  major changes are using collector so we can control order and also squashing everything to lower case because otherwise &quot;los angeles&quot; won't match &quot;Los Angeles&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleoOokaboo/Beans.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleoOokaboo/CorsFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleoOokaboo/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/RunQueryApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleoOokaboo/SuggestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/suggest-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/ontology2/typeahead_config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cleo-ookaboo-webapp.iml" afterPath="$PROJECT_DIR$/cleo-ookaboo-webapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/resources/com/ontology2/cleo4ookaboo/applicationContext.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/resources/com/ontology2/cleo4ookaboo/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" />
     </list>
     <ignored path="cleo-ookaboo-webapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,7 +105,22 @@
         <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/GenericTypeahead.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="61" column="66" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8330">
-              <folding />
+              <folding>
+                <element signature="e#0#16023#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6035#6036#0" expanded="false" />
+                <element signature="e#6064#6065#0" expanded="false" />
+                <element signature="e#6111#6112#0" expanded="false" />
+                <element signature="e#6143#6144#0" expanded="false" />
+                <element signature="e#6210#6211#0" expanded="false" />
+                <element signature="e#6243#6244#0" expanded="false" />
+                <element signature="e#9602#9610#0" expanded="false" />
+                <element signature="e#10067#10075#0" expanded="false" />
+                <element signature="e#10122#10130#0" expanded="false" />
+                <element signature="e#10728#10736#0" expanded="false" />
+                <element signature="e#13505#13775#0" expanded="false" />
+                <element signature="e#13768#13769#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,7 +149,10 @@
         <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/Typeahead.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="57" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
+              <folding>
+                <element signature="e#0#898#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -612,7 +606,11 @@
       <created>1386365285489</created>
       <updated>1386365285489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#5 first light..  it really works,  major changes are using collector so we can control order and also squashing everything to lower case because otherwise &quot;los angeles&quot; won't match &quot;Los Angeles&quot;">
+      <created>1386693576755</created>
+      <updated>1386693576755</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,14 +776,32 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/GenericTypeahead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="66" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8330">
-          <folding />
+          <folding>
+            <element signature="e#0#16023#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6035#6036#0" expanded="false" />
+            <element signature="e#6064#6065#0" expanded="false" />
+            <element signature="e#6111#6112#0" expanded="false" />
+            <element signature="e#6143#6144#0" expanded="false" />
+            <element signature="e#6210#6211#0" expanded="false" />
+            <element signature="e#6243#6244#0" expanded="false" />
+            <element signature="e#9602#9610#0" expanded="false" />
+            <element signature="e#10067#10075#0" expanded="false" />
+            <element signature="e#10122#10130#0" expanded="false" />
+            <element signature="e#10728#10736#0" expanded="false" />
+            <element signature="e#13505#13775#0" expanded="false" />
+            <element signature="e#13768#13769#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/Typeahead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="57" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
+          <folding>
+            <element signature="e#0#898#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
