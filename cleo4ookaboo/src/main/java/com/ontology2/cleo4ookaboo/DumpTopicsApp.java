@@ -19,6 +19,7 @@ public class DumpTopicsApp extends CommandLineApplication {
 
     private void mysqlScan() {
         JdbcTemplate t = new JdbcTemplate(dataSource);
+        t.setFetchSize(Integer.MIN_VALUE);
         List<String> col = t
                 .queryForList("SELECT dbpedia_resource"
                         + " FROM topic"
