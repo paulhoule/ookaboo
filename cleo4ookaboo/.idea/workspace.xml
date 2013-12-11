@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af730e5b-e989-4a8f-9054-97c0f9d3dff9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -105,10 +104,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuildIndexApp.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
+      <file leaf-file-name="log4j.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="81" selection-start="735" selection-end="735" vertical-scroll-proportion="0.27744806" vertical-offset="153" max-vertical-offset="2788">
+            <state line="6" column="65" selection-start="290" selection-end="290" vertical-scroll-proportion="0.14847161" vertical-offset="0" max-vertical-offset="687">
               <folding />
             </state>
           </provider>
@@ -147,7 +146,14 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.4.RELEASE/spring-jdbc-3.2.4.RELEASE-sources.jar!/org/springframework/jdbc/support/rowset/ResultSetWrappingSqlRowSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="74" column="50" selection-start="3243" selection-end="3245" vertical-scroll-proportion="-7.4615383" vertical-offset="622" max-vertical-offset="10557">
-              <folding />
+              <folding>
+                <element signature="e#0#17133#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4611#4612#0" expanded="false" />
+                <element signature="e#4639#4640#0" expanded="false" />
+                <element signature="e#4754#4755#0" expanded="false" />
+                <element signature="e#4787#4788#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +162,10 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.4.RELEASE/spring-jdbc-3.2.4.RELEASE-sources.jar!/org/springframework/jdbc/support/rowset/SqlRowSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="58" column="22" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="8041">
-              <folding />
+              <folding>
+                <element signature="e#0#17476#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,6 +246,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -287,6 +297,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cleo4ookaboo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleo4ookaboo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cleo4ookaboo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,12 +598,16 @@
       <created>1386700665193</created>
       <updated>1386700665193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#5 make the tool take smaller bite-sized queries so we don't blow out the memory limit&#10;">
+      <created>1386702716126</created>
+      <updated>1386702716126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1032" y="-207" width="1040" height="1256" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,7 +626,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28515625" sideWeight="0.67070216" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34290686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34290686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -614,7 +650,8 @@
     <MESSAGE value="add idea config,  add DumpTopicsApp,  enable one-jar plugin and local properties file" />
     <MESSAGE value="#5 cause error message when lookup of local.properties fails so we can track down why we aren't getting it." />
     <MESSAGE value="#5 try telling MySQL to retrieve one record at a time" />
-    <option name="LAST_COMMIT_MESSAGE" value="#5 try telling MySQL to retrieve one record at a time" />
+    <MESSAGE value="#5 make the tool take smaller bite-sized queries so we don't blow out the memory limit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#5 make the tool take smaller bite-sized queries so we don't blow out the memory limit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,13 +665,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sna-projects/cleo/cleo/1.2.6-2/cleo-1.2.6-2-sources.jar!/cleo/search/typeahead/TypeaheadConfigFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="13" selection-start="6155" selection-end="6155" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/typeahead_config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="51" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
@@ -652,7 +682,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2278">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +712,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="80" selection-start="2440" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2278">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +768,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2227">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +829,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="0" selection-start="2940" selection-end="3305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="54" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,7 +986,10 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.4.RELEASE/spring-jdbc-3.2.4.RELEASE-sources.jar!/org/springframework/jdbc/support/rowset/SqlRowSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="22" selection-start="2103" selection-end="2103" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="8041">
-          <folding />
+          <folding>
+            <element signature="e#0#17476#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,7 +1003,14 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.4.RELEASE/spring-jdbc-3.2.4.RELEASE-sources.jar!/org/springframework/jdbc/support/rowset/ResultSetWrappingSqlRowSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="50" selection-start="3243" selection-end="3245" vertical-scroll-proportion="-7.4615383" vertical-offset="622" max-vertical-offset="10557">
-          <folding />
+          <folding>
+            <element signature="e#0#17133#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4611#4612#0" expanded="false" />
+            <element signature="e#4639#4640#0" expanded="false" />
+            <element signature="e#4754#4755#0" expanded="false" />
+            <element signature="e#4787#4788#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -984,7 +1032,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="81" selection-start="735" selection-end="735" vertical-scroll-proportion="0.27744806" vertical-offset="153" max-vertical-offset="2788">
+        <state line="117" column="58" selection-start="4344" selection-end="4561" vertical-scroll-proportion="0.5296736" vertical-offset="1632" max-vertical-offset="2788">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="65" selection-start="290" selection-end="290" vertical-scroll-proportion="0.14847161" vertical-offset="0" max-vertical-offset="687">
           <folding />
         </state>
       </provider>

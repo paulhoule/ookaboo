@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" />
     </list>
     <ignored path="cleo-ookaboo-webapp.iws" />
@@ -74,7 +74,7 @@
       <file leaf-file-name="SuggestController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleoOokaboo/SuggestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="67" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5037037" vertical-offset="0" max-vertical-offset="731">
+            <state line="20" column="80" selection-start="636" selection-end="636" vertical-scroll-proportion="0.27592593" vertical-offset="191" max-vertical-offset="731">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,8 +224,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2549" />
-    <option name="y" value="373" />
+    <option name="x" value="-2903" />
+    <option name="y" value="302" />
     <option name="width" value="1475" />
     <option name="height" value="982" />
   </component>
@@ -615,8 +615,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2549" y="373" width="1475" height="982" extended-state="0" />
-    <editor active="true" />
+    <frame x="-2903" y="302" width="1475" height="982" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -822,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleoOokaboo/SuggestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5037037" vertical-offset="0" max-vertical-offset="731">
+        <state line="20" column="80" selection-start="636" selection-end="636" vertical-scroll-proportion="0.27592593" vertical-offset="191" max-vertical-offset="731">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
