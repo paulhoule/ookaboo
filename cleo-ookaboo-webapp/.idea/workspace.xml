@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07478c6e-fee3-4945-8011-9cf86d92fee8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/BuildIndexApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/../cleo4ookaboo/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/target/classes/com/ontology2/cleo4ookaboo/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo4ookaboo/.idea/workspace.xml" />
@@ -616,7 +616,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2903" y="302" width="1475" height="982" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

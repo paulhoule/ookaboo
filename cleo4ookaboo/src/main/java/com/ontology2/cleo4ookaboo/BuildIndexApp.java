@@ -40,13 +40,13 @@ public class BuildIndexApp extends CommandLineApplication {
         long startTime = System.nanoTime();
         gta=createTypeahead(new ClassPathResource("/com/ontology2/cleo4ookaboo/typeahead_config.properties"));
         mysqlScan();
-        System.out.println("Max score A: " + gta.getMaxElementScore());
-        System.out.println("Max key length A: " + gta.getMaxKeyLength());
         gta.flush();
-        List <TypeaheadElement> y=gta.search(1,new String[] {"Los"});
+        List <TypeaheadElement> y=gta.search(1,new String[] {"los"});
+        if (y.isEmpty()) {
+            System.out.println("====> FAILURE NO SEARCH RESULTS");
+            System.exit(99);
+        }
         System.out.println("Number of search results: "+y.size());
-        System.out.println("Max score B:" + gta.getMaxElementScore());
-        System.out.println("Max key length B:"+gta.getMaxKeyLength());
         long endTime = System.nanoTime();
 
         long duration = endTime - startTime;
@@ -101,46 +101,25 @@ public class BuildIndexApp extends CommandLineApplication {
 
     private void mysqlScan(int from,int to) throws Exception {
         JdbcTemplate t = new JdbcTemplate(dataSource);
-        int count=t.queryForInt("SELECT COUNT(*)"
-                + " FROM topic,topic_alt_name"
-                + " WHERE workflow_status>600"
-                + " AND topic.id=topic_alt_name.id"
-                + " AND topic.id>=?"
-                + " AND topic.id<?",from,to);
-
-        if (count==0)
-            return;
 
         SqlRowSet row = t
-                .queryForRowSet("SELECT topic.id,title,slug,quality_score_2,name"
-                        + " FROM topic,topic_alt_name"
+                .queryForRowSet("SELECT topic.id,title,slug,quality_score_2"
+                        + " FROM topic"
                         + " WHERE workflow_status>600"
-                        + " AND topic.id=topic_alt_name.id"
                         + " AND topic.id>=?"
                         + " AND topic.id<?",from,to);
 
-        int cnt = 0;
-
-        RowGroup g = null;
-        row.next();
-        while (!row.isAfterLast()) {
-            int id = row.getInt(1);
-            if (g == null || g.id != id) {
-                if (g != null) {
-                    flush(g);
-                }
-                g = new RowGroup();
-                g.id = id;
-                g.terms = Lists.newArrayList();
-                g.title = row.getString(2);
-                g.slug = row.getString(3);
-                g.score = row.getFloat(4);
-            }
-            g.terms.add(row.getString(5).toLowerCase());
-            row.next();
+        while(row.next()) {
+            RowGroup g = new RowGroup();
+            g.id=row.getInt(1);
+            g.title = row.getString(2);
+            g.terms = Lists.newArrayList(g.title.toLowerCase());
+            g.slug = row.getString(3);
+            g.score = row.getFloat(4);
+            flush(g);
         }
 
-        flush(g);
+
     }
 
     private void flush(RowGroup g) throws Exception {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af730e5b-e989-4a8f-9054-97c0f9d3dff9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cleo-ookaboo-webapp/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -104,10 +104,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="log4j.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BuildIndexApp.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="33" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.37833828" vertical-offset="425" max-vertical-offset="2431">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="65" selection-start="290" selection-end="290" vertical-scroll-proportion="0.14847161" vertical-offset="0" max-vertical-offset="687">
+            <state line="6" column="25" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -202,17 +213,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunQueryApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/RunQueryApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="40" selection-start="2282" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1224">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ClassPathResource.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -245,8 +245,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/RunQueryApp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/ontology2/cleo4ookaboo/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/DumpTopicsApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java" />
       </list>
     </option>
   </component>
@@ -602,12 +602,16 @@
       <created>1386702716126</created>
       <updated>1386702716126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="resolve #6 -- don't log every time we insert something">
+      <created>1386792144752</created>
+      <updated>1386792144752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1032" y="-207" width="1040" height="1256" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -626,7 +630,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28515625" sideWeight="0.67070216" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34290686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34290686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -651,7 +655,8 @@
     <MESSAGE value="#5 cause error message when lookup of local.properties fails so we can track down why we aren't getting it." />
     <MESSAGE value="#5 try telling MySQL to retrieve one record at a time" />
     <MESSAGE value="#5 make the tool take smaller bite-sized queries so we don't blow out the memory limit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="#5 make the tool take smaller bite-sized queries so we don't blow out the memory limit&#10;" />
+    <MESSAGE value="resolve #6 -- don't log every time we insert something" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve #6 -- don't log every time we insert something" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,7 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="40" selection-start="2282" selection-end="2393" vertical-scroll-proportion="0.0" vertical-offset="529" max-vertical-offset="1224">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1030,19 +1035,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="58" selection-start="4344" selection-end="4561" vertical-scroll-proportion="0.5296736" vertical-offset="1632" max-vertical-offset="2788">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="6" column="25" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/cleo4ookaboo/BuildIndexApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="65" selection-start="290" selection-end="290" vertical-scroll-proportion="0.14847161" vertical-offset="0" max-vertical-offset="687">
-          <folding />
+        <state line="40" column="33" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.37833828" vertical-offset="425" max-vertical-offset="2431">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
