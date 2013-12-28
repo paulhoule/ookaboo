@@ -17,7 +17,7 @@
 
   <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
       <property name="locations" value="file:${user.home}/.cleo4ookaboo/local.properties" />
-      <property name="ignoreResourceNotFound" value="true" />
+      <property name="ignoreResourceNotFound" value="false" />
   </bean>
 
   <!-- 2.0 database connection cofiguration -->
