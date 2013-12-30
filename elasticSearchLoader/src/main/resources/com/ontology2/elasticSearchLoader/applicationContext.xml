@@ -15,4 +15,12 @@
     <property name="ignoreResourceNotFound" value="true" />
   </bean>
 
+  <!-- 2.0 database connection configuration -->
+  <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource">
+    <property name="driverClass" value="com.mysql.jdbc.Driver" />
+    <property name="jdbcUrl" value="${jdbc.url}" />
+    <property name="username" value="${jdbc.username}" />
+    <property name="password" value="${jdbc.password}" />
+  </bean>
+
 </beans>
