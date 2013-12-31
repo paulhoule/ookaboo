@@ -35,4 +35,9 @@
       </bean>
     </constructor-arg>
   </bean>
+
+  <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper" />
+  <bean id="indexName" class="java.lang.String">
+    <constructor-arg value="ookaboo"></constructor-arg>
+  </bean>
 </beans>
