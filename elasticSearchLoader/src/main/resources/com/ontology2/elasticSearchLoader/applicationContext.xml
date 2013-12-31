@@ -27,4 +27,12 @@
     <constructor-arg ref="dataSource" />
   </bean>
 
+  <bean id="esClient" class="com.ontology2.elasticSearchLoader.SimpleTransportClient">
+    <constructor-arg>
+      <bean class="org.elasticsearch.common.transport.InetSocketTransportAddress">
+        <constructor-arg value="localhost" />
+        <constructor-arg value="9300" />
+      </bean>
+    </constructor-arg>
+  </bean>
 </beans>

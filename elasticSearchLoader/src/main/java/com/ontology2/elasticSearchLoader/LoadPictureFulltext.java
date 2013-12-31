@@ -6,13 +6,12 @@ import com.google.common.collect.Maps;
 import com.ontology2.centipede.shell.CommandLineApplication;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.client.Client;
-import org.elasticsearch.client.transport.TransportClient;
-import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.util.Map;
 
 @Component("loadPictureFulltext")
@@ -20,14 +19,11 @@ public class LoadPictureFulltext extends CommandLineApplication {
     @Autowired
     public JdbcTemplate jdbcTemplate;
 
-    Client client;
+    @Resource(name="esClient") Client client;
     ObjectMapper objectMapper;
 
     @Override
     protected void _run(String[] strings) throws Exception {
-        client = new TransportClient()
-                .addTransportAddress(new InetSocketTransportAddress("localhost", 9300));
-
         objectMapper = new ObjectMapper();
         mysqlScan();
         client.close();
