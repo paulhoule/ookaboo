@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e525c2e8-4835-4d47-9ee2-7a87adc6f1c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SearchFor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java" afterPath="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="elasticSearchLoader.iws" />
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadFulltext.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoadFulltext.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="772" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+            <state line="45" column="26" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.37245697" vertical-offset="306" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -120,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchFor.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SearchFor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SearchFor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="63" selection-start="870" selection-end="870" vertical-scroll-proportion="0.6257669" vertical-offset="0" max-vertical-offset="652">
+            <state line="21" column="51" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +135,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SimpleTransportClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,7 +155,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +166,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/ShowVersionNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,9 +192,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/ontology2/elasticSearchLoader/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadPictureFulltext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadTopicFulltext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadSourceFulltext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SearchFor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java" />
       </list>
     </option>
   </component>
@@ -526,7 +532,7 @@
     <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ontology2.elasticSearchLoader.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="run searchFor topic los" />
+      <option name="PROGRAM_PARAMETERS" value="run loadSourceFulltext" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -587,7 +593,11 @@
       <created>1388531333847</created>
       <updated>1388531333847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add simple search client to make sure that searches work on a minimal level&#10;">
+      <created>1388681506400</created>
+      <updated>1388681506400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,7 +621,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32478634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4547582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4547582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -635,7 +645,8 @@
     <MESSAGE value="this one really works;  I didn't put the index name in the index request and also didn't call actionGet() to actually make the request happen" />
     <MESSAGE value="springify client configuration" />
     <MESSAGE value="it looks like we are loading the index ok...  we ought to run some test queries then try to build an index over in AWS" />
-    <option name="LAST_COMMIT_MESSAGE" value="it looks like we are loading the index ok...  we ought to run some test queries then try to build an index over in AWS" />
+    <MESSAGE value="add simple search client to make sure that searches work on a minimal level&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add simple search client to make sure that searches work on a minimal level&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -676,7 +687,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SimpleTransportClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,14 +703,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/ShowVersionNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +751,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadSourceFulltext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadTopicFulltext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -825,17 +837,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="772" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SimpleTransportClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="5" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -849,23 +856,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/ShowVersionNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/SearchFor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="63" selection-start="870" selection-end="870" vertical-scroll-proportion="0.6257669" vertical-offset="0" max-vertical-offset="652">
+        <state line="21" column="51" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadSourceFulltext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontology2/elasticSearchLoader/LoadFulltext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="26" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.37245697" vertical-offset="306" max-vertical-offset="1071">
+          <folding />
         </state>
       </provider>
     </entry>

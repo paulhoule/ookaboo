@@ -43,7 +43,7 @@ abstract public class LoadFulltext extends CommandLineApplication {
     private void mysqlScan() throws Exception {
         int count=jdbcTemplate.queryForInt("SELECT MAX(id) FROM topic");
         for(int i=0;i<count;i+=BITE_SIZE) {
-            log.info((100*i)/count+"% done ");
+            log.info((100L*i)/count+"% done ");
             mysqlScan(i,i+BITE_SIZE);
         }
     }
